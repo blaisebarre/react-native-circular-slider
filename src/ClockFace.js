@@ -1,14 +1,14 @@
-import React, { PureComponent, PropTypes } from 'react';
+import React, { PureComponent } from 'react';
 import { G, Circle, Text, Line } from 'react-native-svg';
 import range from 'lodash.range';
 
 
 export default class ClockFace extends PureComponent {
 
-  static propTypes = {
-    r: PropTypes.number,
-    stroke: PropTypes.string,
-  }
+  // static propTypes = {
+  //   r: PropTypes.number,
+  //   stroke: PropTypes.string,
+  // }
 
   render() {
     const { r, stroke } = this.props;
